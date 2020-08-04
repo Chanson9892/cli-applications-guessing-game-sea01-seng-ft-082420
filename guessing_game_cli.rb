@@ -1,7 +1,7 @@
 #computer generates random number between 1-6
 def new_rand_int
-  new_number = rand(6) + 1
-  new_number
+  new_int = rand(6) + 1
+  new_int
 end
 
 def prompt_user
