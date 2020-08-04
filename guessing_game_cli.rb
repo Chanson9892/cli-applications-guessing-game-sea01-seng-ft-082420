@@ -11,6 +11,7 @@ def prompt_user
   guess
 end
 
+#compares the random_num to user_input
 def compare_numbers(rand_int, user_guess)
   if rand_int == user_guess
     puts "You guessed the correct number!"
