@@ -9,7 +9,7 @@ def prompt_user
   user_input = gets.chomp
 end
 
-#compares the random_num to user_input 
+#compares the random_num to user_input
 def compare_numbers
   if random_num == user_input
     puts "You guessed the right number!"
