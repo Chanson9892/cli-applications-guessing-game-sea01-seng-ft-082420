@@ -12,10 +12,10 @@ def prompt_user
 end
 
 #compares the random_num to user_input
-def compare_numbers(rand_int, user_guess)
-  if rand_int == user_guess
+def compare_numbers(number, guess)
+  if number == guess
     puts "You guessed the correct number!"
-  elsif user_guess == "exit"
+  elsif guess == "exit"
     puts "Goodbye!"
   else
     puts "Sorry! The computer guessed #{rand_int}."
@@ -25,5 +25,5 @@ end
 def run_guessing_game
   rand_int = computer_random_number
   user_guess = prompt_user
-  compare_numbers(rand_int, user_guess)
+  compare_numbers(number, guess)
 end
