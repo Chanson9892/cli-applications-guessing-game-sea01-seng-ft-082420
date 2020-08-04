@@ -11,10 +11,10 @@ def prompt_user
 end
 
 #compares the random_num to user_input
-def compare_numbers(random_num, user_input)
-  if random_num == user_input
+def compare_numbers(number, guess)
+  if number == guess
     puts "You guessed the right number!"
-  elsif user_input == "exit"
+  elsif guess == "exit"
     puts "Goodbye!"
   else
     puts "Sorry! The computer guessed #{random_num}."
