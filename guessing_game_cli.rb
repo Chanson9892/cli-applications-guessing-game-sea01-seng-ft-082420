@@ -27,3 +27,5 @@ computer_random_number
 prompt_user
 compare_numbers(random_num, user_input)
 end
+
+run_guessing_game
