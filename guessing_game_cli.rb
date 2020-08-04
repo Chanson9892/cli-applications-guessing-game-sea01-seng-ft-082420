@@ -7,8 +7,8 @@ end
 
 #receives the user's guess
 def prompt_user
-  guess = gets.chomp
-  guess
+  user_input = gets.chomp
+  user_input
 end
 
 #compares the random_num to user_input
