@@ -21,5 +21,7 @@ def compare_numbers
 end
 
 def run_guessing_game
-
+computer_random_number
+prompt_user
+compare_numbers
 end
