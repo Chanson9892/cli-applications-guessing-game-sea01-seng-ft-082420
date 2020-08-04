@@ -1,5 +1,5 @@
 #computer generates random number between 1-6
-def new_rand_int
+def computer_random_number
   random_num = rand(6) + 1
   random_num = "#{random_num}"
   random_num
@@ -23,7 +23,7 @@ def compare_numbers(rand_int, user_guess)
 end
 
 def run_guessing_game
-  rand_int = new_rand_int
+  rand_int = computer_random_number
   user_guess = prompt_user
   compare_numbers(rand_int, user_guess)
 end
