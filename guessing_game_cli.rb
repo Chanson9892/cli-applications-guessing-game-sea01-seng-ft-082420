@@ -22,7 +22,7 @@ def compare_numbers(number, guess)
 end
 
 def run_guessing_game
-computer_random_number
-prompt_user
-compare_numbers(random_num, user_input)
+number = computer_random_number
+guess = prompt_user
+compare_numbers(number, guess)
 end
