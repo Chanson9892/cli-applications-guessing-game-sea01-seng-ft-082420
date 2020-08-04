@@ -25,5 +25,5 @@ end
 def run_guessing_game
 computer_random_number
 prompt_user
-compare_numbers
+compare_numbers(random_num, user_input)
 end
