@@ -8,6 +8,7 @@ end
 def prompt_user
   puts "guess a number between 1 and 6"
   user_input = gets.chomp
+  user_input
 end
 
 #compares the random_num to user_input
