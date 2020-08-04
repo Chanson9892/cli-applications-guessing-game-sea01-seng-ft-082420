@@ -4,8 +4,8 @@ def new_rand_int
 end
 
 def prompt_user
-  guess = gets.chomp
-  guess
+  new_int = gets.chomp
+  new_int
 end
 
 def compare_numbers(rand_int, user_guess)
