@@ -1,6 +1,5 @@
 def new_rand_int
   new_int = rand(6) + 1
-  new_int = "#{new_int}"
   new_int
 end
 
