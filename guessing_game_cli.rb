@@ -24,4 +24,3 @@ def run_guessing_game
   user_guess = prompt_user
   compare_numbers(rand_int, user_guess)
 end
-
