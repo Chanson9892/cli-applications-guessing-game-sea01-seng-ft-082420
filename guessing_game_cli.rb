@@ -1,6 +1,6 @@
 #computer generates random number between 1-6
 def computer_random_number
-  random_num = rand(5) + 1
+  random_num = rand(6) + 1
   random_num
 end
 
