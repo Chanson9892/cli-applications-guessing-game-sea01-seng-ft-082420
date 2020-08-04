@@ -23,7 +23,7 @@ def compare_numbers(number, guess)
 end
 
 def run_guessing_game
-  rand_int = computer_random_number
-  user_guess = prompt_user
+  number = computer_random_number
+  guess = prompt_user
   compare_numbers(number, guess)
 end
