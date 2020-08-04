@@ -12,7 +12,7 @@ def prompt_user
 end
 
 #compares the random_num to user_input
-def compare_numbers
+def compare_numbers(random_num, user_input)
   if random_num == user_input
     puts "You guessed the right number!"
   elsif random_num != user_input
